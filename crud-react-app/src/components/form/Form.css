@@ -1,0 +1,199 @@
+body {
+    padding: 50px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .form-tt {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 30px 55px 30px;
+    background: #9152f8;
+    text-align: center;
+    margin: 100px auto;
+    box-shadow: 5px 20px 50px rgb(137, 43, 226);
+  }
+  .eyechange {
+    display: flex;
+  }
+  #eye {
+    margin-top: 25px;
+    cursor: pointer;
+  }
+  
+  .form-tt h2 {
+    font-size: 40px;
+    color: #fff;
+    line-height: 1.8;
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+  }
+  .form-tt input[type=text],
+  .form-tt input[type=password] {
+      font-family: Poppins-Regular;
+      font-size: 20px;
+      color: #fff;
+      line-height: 1.5;
+      display: block;
+      width: calc(100% - 10px);
+      height: 45px;
+      background: 0 0;
+      padding: 10px 0;
+      border-bottom: 2px solid rgba(255, 255, 255, .24) !important;
+      border: 0;
+      outline: 0;
+  }
+  .form-tt input::placeholder {
+    color: #fff;
+  }
+  
+  .form-tt input[type=submit] {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.2;
+    padding: 0 20px;
+    min-width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    outline: 0;
+    display: block;
+    margin: 30px auto;
+  }
+  #checkbox {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  .checkbox-text{
+    color: #fff;
+  }
+  .psw-text {
+    color: #fff;
+  }
+  .signup-link {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .main {
+    
+    line-height: 30px;
+    margin: 50px auto;
+    border-radius: 30px;
+    width: 350px;
+    min-height: 500px;
+    background-color: #9152f8;
+    overflow: hidden;
+    box-shadow: 5px 20px 50px blueviolet;
+  }
+  
+  .signup {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .label1 {
+    color: white;
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .input1 {
+    width: 60%;
+    height: 20px;
+    background: #e0dede;
+    justify-content: center;
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  .button1 {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: gr;
+    background: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+  }
+  
+  .button1:hover {
+    background: #6d44b8;
+  }
+   
+   .error{
+    font-size: small;
+    color: red;
+   }
+  
+  
+   .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

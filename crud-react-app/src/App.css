@@ -1,0 +1,152 @@
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.container{
+  width: 90vw;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+  color: #000;
+  
+  
+}
+
+.header-card{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 80px 30px ;
+  
+  
+}
+.main-card{
+  display: flex;
+  width: 100%;
+  gap: 60px;
+  height: 100%;
+}
+.main-right-card{
+  display: flex;
+  flex-direction: column;
+}
+.img-product{
+  width: 25%;
+}
+.img-product img{
+  width: 80%;
+}
+.mid-card{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.title-main{
+  font-size: 30px;
+  font-weight: 800;
+}
+.price{
+  color: #808080;
+  font-size: 16px;
+}
+.mid-card-size{
+  display: flex;
+  width: 100%;
+}
+.mid-card-size span{
+  font-size: 16px;
+  font-weight: 600;
+}
+.So-luong{
+  border: 1px solid #a5a5a5;
+  width: 8vw;
+  height: 35px;
+  display: flex;
+  align-items: center;
+    justify-content: space-around;
+}
+.So-luong button{
+  padding: 0 5px;
+  background-color: #f15e2c;
+}
+
+.main-right-card{
+  display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+.total-product{
+  color: #f15e2c;
+  font-size: 23px;
+  margin-bottom: 0px;
+  min-height: 50px;
+}
+.status-product{
+  color: #f15e2c;
+      font-family: NunitoSanSBoldI;
+      font-size: 16px;
+}
+
+.fa-heart{
+  color: #f15e2c;
+  padding: 2px 20px;
+  width: 8vw;
+  height: 30px;
+  position: relative;
+  top: 5px;
+}
+.fa-trash-can{
+  color: #f15e2c;
+  padding: 2px 20px;
+  width: 8vw;
+  height: 30px;
+  position: relative;
+  top: 5px;
+}
+.header-card button{
+  background-color: #61dafb;
+  color: #000;
+  font-size: 30px;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+}

@@ -1,0 +1,150 @@
+{
+  "products": [
+    {
+      "anh": "https://product.hstatic.net/1000162838/product/smart_boiler_switch-05b_585b531324284b81a8fedffae40ba645_master.png",
+      "name": "Công tắc wifi bình nóng lạnh hẹn giờ tắt hình chữ nhật",
+      "price": "550000 ",
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "anh": "https://product.hstatic.net/1000162838/product/1_d69bc335e35743899a2bfeefeb2e0531_master.png",
+      "name": "Cảm biến ánh sáng wifi",
+      "price": "450000",
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "anh": "https://product.hstatic.net/1000162838/product/2_ae486f8f89894c039564fcda1f2036e4_master.png",
+      "name": "Công tắc wifi bình nóng lạnh hẹn giờ tắt hình vuông",
+      "price": "990000",
+      "quantity": "7",
+      "id": 3
+    },
+    {
+      "anh": "https://product.hstatic.net/1000162838/product/5_48f7aef5e0e6408c868c6d15b94ec682_master.png",
+      "name": "Cut nối điện nhanh",
+      "price": "22000",
+      "quantity": 1,
+      "id": 4
+    },
+    {
+      "anh": "https://product.hstatic.net/1000162838/product/10_4e1029d0cdf44bbdbfee57bd17ac44a9_master.png",
+      "name": "Đồng hồ cảm biến nhiệt độ độ ẩm",
+      "price": "190000",
+      "quantity": 1,
+      "id": 5
+    },
+    {
+      "anh": "https://product.hstatic.net/1000162838/product/3_cf5a0fa3500b4727b1cdd0d75d4d2603_master.png",
+      "name": "Khóa cửa thông minh",
+      "price": "1990000",
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "anh": "https://product.hstatic.net/1000162838/product/kt-p41b-1_500aa896d7974a138277efd190633a13_master.png",
+      "name": "Ổ khóa bấm vân tay cắt chống nước",
+      "price": "990000",
+      "quantity": 1,
+      "id": 7
+    },
+    {
+      "anh": "https://product.hstatic.net/1000162838/product/7_427ccdd4b0b54e2c8600e0c4d7bb873e_master.png",
+      "name": "Trung tâm điều khiển nhà thông minh",
+      "price": "590000",
+      "quantity": 1,
+      "id": 8
+    },
+    {
+      "anh": "https://product.hstatic.net/1000162838/product/6_ceab2263621b4f71a4c41bb1a476ba61_master.png",
+      "name": "Khóa cửa nhận dạng khuôn mặt face ID",
+      "price": "4950000",
+      "quantity": 1,
+      "id": 9
+    },
+    {
+      "anh": "https://product.hstatic.net/1000162838/product/7_94163448286346aaa81d9ce4fb12a5ea_master.png",
+      "name": "Khóa cửa kính vân tay",
+      "price": "2990000",
+      "quantity": 1,
+      "id": 10
+    },
+    {
+      "anh": "https://product.hstatic.net/1000162838/product/6_8cab7fdca82449a09f025cb9a085a4cd_master.png",
+      "name": "Đa Phương Thức Tuya Dual Multi Zigbee BLE THA3v3",
+      "price": "990000",
+      "quantity": "5",
+      "id": "11"
+    }
+  ],
+  "users": [
+    {
+      "firstname": "john",
+      "lastname": "doe",
+      "username": "johnd",
+      "email": "john@gmail.com",
+      "password": "m38rmF@",
+      "id": 1
+    },
+    {
+      "firstname": "kevin",
+      "lastname": "ryan",
+      "username": "kevinryan",
+      "email": "kevin@gmail.com",
+      "password": "kev02937@",
+      "id": 2
+    },
+    {
+      "firstname": "vien",
+      "lastname": "dovan",
+      "username": "vien345",
+      "email": "vien12@gmail.com",
+      "password": "vien123@",
+      "id": 3
+    },
+    {
+      "firstName": "vien",
+      "lastName": "do van",
+      "username": "vienbk102",
+      "email": "vienbk102@gmail.com",
+      "password": "vien1234",
+      "confirmPassword": "vien1234",
+      "id": 6,
+      "firstname": "a123",
+      "lastname": "b21"
+    },
+    {
+      "firstName": "ad",
+      "lastName": "min",
+      "username": "admin123",
+      "email": "vien022@gmail.com",
+      "password": "oidoioi",
+      "confirmPassword": "oidoioi",
+      "id": 7
+    },
+    {
+      "firstName": "quach",
+      "lastName": "thanh danh",
+      "username": "lubu",
+      "email": "lubu@gmail.com",
+      "password": "dieuthuyen",
+      "confirmPassword": "dieuthuyen",
+      "id": 8
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "username": "johnd",
+      "date": "2022-05-05",
+      "totalPrice": "200000"
+    },
+    {
+      "id": 2,
+      "username": "kevinryan",
+      "date": "2022-05-06",
+      "totalPrice": "500000"
+    }
+  ]
+}
